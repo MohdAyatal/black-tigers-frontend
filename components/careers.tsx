@@ -188,12 +188,14 @@ function RoleCard({ role, index }: { role: (typeof openRoles)[0]; index: number 
                   ))}
                 </ul>
               </div>
-              
-                href="#join-form"
-                className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-cyan hover:bg-cyan-bright text-midnight-blue font-bold text-xs tracking-widest uppercase transition-all duration-200 hover:scale-[1.02]"
-                style={{ boxShadow: "0 6px 20px -4px rgba(34,211,238,0.45)" }}
-                Apply for This Role <ArrowRight className="w-3.5 h-3.5" />
-              </a>
+              <a
+          href="#join-form"
+         className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-cyan hover:bg-cyan-bright text-midnight-blue font-bold text-xs tracking-widest uppercase transition"
+      style={{ boxShadow: "0 6px 20px -4px rgba(34,211,238,0.45)" }}
+      >
+  Apply for This Role <ArrowRight className="w-3.5 h-3.5" />
+</a>
+                
             </div>
           </motion.div>
         )}

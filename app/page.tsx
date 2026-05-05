@@ -5,6 +5,7 @@ import { About } from "@/components/about"
 import { WhyChooseUs } from "@/components/why-choose-us"
 import { Gallery } from "@/components/gallery"
 import { Testimonials } from "@/components/testimonials"
+import { Careers } from "@/components/careers"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
@@ -21,6 +22,7 @@ export default function Page() {
       <WhyChooseUs />
       <Gallery />
       <Testimonials />
+      <Careers />
       <Contact />
       <Footer />
       <WhatsAppButton />
